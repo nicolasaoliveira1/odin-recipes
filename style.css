@@ -2,26 +2,28 @@
     color: rgb(100, 5, 5);
     text-shadow: 2px 2px 2px rgb(158, 158, 158);
     background-color: rgb(233, 225, 225);
+    text-align: center;
+    margin-bottom: -15px;
 }
 h1 {
     border: 0px solid;
-    font-size: 40px;
-    text-align: left;
+    font-size: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 span {
     display: block;
-    margin-bottom: 7px;
+    margin-bottom: 0px;
 }
 
 
 img {
-    border-radius: 12px;
-    margin-top: 0px;
-    margin-bottom: 25px;
+    border-radius: 10px;
     margin-right: 50px;
+    margin-left: 5px;
     box-shadow: 5px 5px 8px #c9c3c3;
-    
+    border: 1px solid darkred;
+    width: 150px;
+    height: auto;
 }
 
 a {
@@ -40,11 +42,16 @@ a:hover {
 }
 
 #nicolas {
-    font-size: 24px;
+    font-size: 20px;
+    margin-left: 360px;
+    
 }
 
 ul {
-    display: flex;
-    
-    
+    display: flex;  
+
+}
+
+* {
+    outline: 0px solid red;
 }
