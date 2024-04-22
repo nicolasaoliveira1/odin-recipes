@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 .title {
     color: rgb(100, 5, 5);
     text-shadow: 2px 2px 2px rgb(158, 158, 158);
@@ -55,6 +61,3 @@ ul {
 
 }
 
-* {
-    outline: 0px solid red;
-}
