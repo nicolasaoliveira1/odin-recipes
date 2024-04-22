@@ -8,40 +8,45 @@
 .title {
     color: rgb(100, 5, 5);
     text-shadow: 2px 2px 2px rgb(48, 48, 48);
-    text-align: center;
     margin-bottom: -15px;
 }
 h1 {
     border: 0px solid;
     font-size: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 35px;
+    
 }
 h1 span {
     display: block;
-    width: 350px;
-    margin-left: 270px;
+    width: 450px;
+    margin: auto;
     border: 2px dashed;
-    padding-bottom: 10px;
-    text-align: center;
+    padding-bottom: 6px;
 }
 
 
 img {
     border-radius: 10px;
-    margin-right: 50px;
-    margin-left: 5px;
-    box-shadow: 5px 5px 8px #333131;
+    box-shadow: 5px 5px 8px #979595;
     border: 1px solid darkred;
-    width: 150px;
-    height: auto;
+    width: 180px;
+    height: 160px;
+    margin-top: 15px;
+    margin-bottom: 65px;
 }
 
 a {
-    font-size: 18px;
-    text-decoration: unset;
-    color: black;
+    font-size: 20px;
+    text-decoration: underline;
+    color: rgb(49, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+
+}
+
+li::marker {
+    font-size: 0em;
 }
 
 a:hover {
@@ -52,13 +57,17 @@ a:hover {
 }
 
 #nicolas {
-    font-size: 20px;
-    margin-left: 360px;
+    font-size: 18px;
+
     
 }
 
 ul {
-    display: flex;  
+    display: block;  
+    padding: 20px;
+    margin: auto;
+    margin-left: 25px;
+    text-align: left;
 
 }
 
