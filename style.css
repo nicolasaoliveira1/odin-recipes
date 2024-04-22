@@ -2,12 +2,12 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    background-color: rgb(219, 219, 203);
 }
 
 .title {
     color: rgb(100, 5, 5);
-    text-shadow: 2px 2px 2px rgb(158, 158, 158);
-    background-color: rgb(233, 225, 225);
+    text-shadow: 2px 2px 2px rgb(48, 48, 48);
     text-align: center;
     margin-bottom: -15px;
 }
@@ -18,9 +18,10 @@ h1 {
 }
 h1 span {
     display: block;
-    width: 300px;
-    margin-left: 300px;
-    border: 1px dashed;
+    width: 350px;
+    margin-left: 270px;
+    border: 2px dashed;
+    padding-bottom: 10px;
     text-align: center;
 }
 
@@ -29,7 +30,7 @@ img {
     border-radius: 10px;
     margin-right: 50px;
     margin-left: 5px;
-    box-shadow: 5px 5px 8px #c9c3c3;
+    box-shadow: 5px 5px 8px #333131;
     border: 1px solid darkred;
     width: 150px;
     height: auto;
@@ -46,7 +47,7 @@ a {
 a:hover {
     color: rgb(131, 11, 11);
     font-weight: bold;
-    font-size: 19px;
+    
     
 }
 
